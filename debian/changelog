@@ -1,0 +1,5 @@
+php-mf2 (0.2.12-2) unstable; urgency=medium
+
+  * Initial release. (Closes: #798037)
+
+ -- Bhuvan Krishna <bhuvan@swecha.net>  Fri, 04 Sep 2015 20:36:17 +0530

@@ -1,0 +1,5 @@
+composer.json usr/share/php/Mf2
+composer.lock usr/share/php/Mf2
+phpunit.xml usr/share/php/Mf2
+README.md usr/share/php/Mf2
+Mf2/Parser.php usr/share/php/Mf2

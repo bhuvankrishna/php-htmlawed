@@ -1,0 +1,23 @@
+Source: php-mf2
+Section: php
+Priority: extra
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Bhuvan Krishna <bhuvan@swecha.net>
+Build-Depends: debhelper (>= 9), pkg-php-tools (>= 1.7~)
+Standards-Version: 3.9.6
+Homepage: http://microformats.org/wiki/microformats-2
+
+Package: php-mf2
+Architecture: all
+Depends:
+ , ${misc:Depends}
+ , ${phpcomposer:Debian-require}
+ , php (>=5.3.0)
+Recommends: ${phpcomposer:Debian-recommend}
+Suggests: ${phpcomposer:Debian-suggest}
+Description: Microformats2 is the simplest way to markup structured information in HTML
+ A pure, generic microformats2 parser - makes HTML as easy to consume
+ as a JSON APIMicroformats2 is the simplest way to markup structured
+ information in HTML. Microformats2 improves ease of use and
+ implementation for both authors (publishers) and developers (parser
+ implementers).
