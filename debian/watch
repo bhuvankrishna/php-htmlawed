@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/php-htmlawed-$1\.tar\.gz/ \
+http://code.swecha.org/gnu-social/htmlawed/releases .*/v?(\d\S*)\.tar\.gz

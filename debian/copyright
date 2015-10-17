@@ -5,15 +5,17 @@ Source: http://www.bioinformatics.org/phplabware/sourceer/sourceer.php?&Sd=htmLa
 
 Files: *
 Copyright:  2015 Santosh Patnaik <patnaik@bioinformatics.org>
-License: LGPL 3 and GPL 2+
-
-
+License: LGPL-3 or GPL-2+
 
 Files: debian/*
 Copyright: 2015 Bhuvan Krishna <bhuvan@swecha.net>
-License: LGPL 3
+License: LGPL-3
 
-License: LGPL 3 and GPL 2+
- Released under the GNU Lesser General Public License, version 3 or later and GNU General Public License
- http://www.gnu.org/licenses/lgpl-3.0.html
- http://www.gnu.org/licenses/gpl-3.0.html
+License: LGPL-3
+ Released under the GNU Lesser General Public License
+ /usr/share/common-licenses/LGPL-3
+
+
+License: GPL-2+
+ Released under the GNU General Public License, version 2 or later.
+ /usr/share/common-licenses/GPL-3
