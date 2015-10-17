@@ -1,23 +1,23 @@
-Source: php-mf2
+Source: php-htmlawed
 Section: php
 Priority: extra
 Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
 Uploaders: Bhuvan Krishna <bhuvan@swecha.net>
 Build-Depends: debhelper (>= 9), pkg-php-tools (>= 1.7~)
 Standards-Version: 3.9.6
-Homepage: http://microformats.org/wiki/microformats-2
+Homepage: http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/
 
-Package: php-mf2
+Package: php-htmlawed
 Architecture: all
 Depends:
  , ${misc:Depends}
- , ${phpcomposer:Debian-require}
  , php (>=5.3.0)
-Recommends: ${phpcomposer:Debian-recommend}
-Suggests: ${phpcomposer:Debian-suggest}
-Description: Microformats2 is the simplest way to markup structured information in HTML
- A pure, generic microformats2 parser - makes HTML as easy to consume
- as a JSON APIMicroformats2 is the simplest way to markup structured
- information in HTML. Microformats2 improves ease of use and
- implementation for both authors (publishers) and developers (parser
- implementers).
+Description: htmLawed PHP code to purify & filter HTML
+ htmLawed is a PHP script to process text with HTML markup to make it
+ more compliant with HTML standards and administrative policies. It
+ works by making HTML well-formed with balanced and properly nested
+ tags, neutralizing code that may be used for cross-site scripting
+ (XSS) attacks, allowing only specified HTML tags and attributes, and
+ so on. Such lawing in of HTML in text used in (X)HTML or XML documents
+ ensures that it is in accordance with the aesthetics, safety and
+ usability requirements set by administrators.

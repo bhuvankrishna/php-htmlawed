@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+chmod a+w /usr/share/php-htmlawed
